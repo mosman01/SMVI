@@ -1,16 +1,15 @@
-#########################################
-##Soil Moisture Volatility Index (SMVI)##
-#########################################
-######################################### 
-###Corresponding Author: Mahmoud Osman###
-######Email-1: mahosman01@gmail.com######
-######Emain-2: mahmoud.osman@jhu.edu#####
-#######Last Update: December 2023########
+# Soil Moisture Volatility Index (SMVI)
+### Corresponding Author: Mahmoud Osman
+#### Email-1: mahosman01@gmail.com
+#### Emain-2: mahmoud.osman@jhu.edu
+
+Last Update: December 2023
+
 #########################################
 
 SMVI data is in this inventory is based on the published studies of flash droughts over the contiguous United States (Osman et al. 2021 & 2022) with slight modifations and enhancements.
 
-# A flash drought is idenified in a gridpoint when the following conditions are fulfilled:
+## A flash drought is idenified in a gridpoint when the following conditions are fulfilled:
 
 		1- The 5-day running average (1-Pentad) RZSM fall below the 20-days running average RZSM.
 		2- The crossover occurs below the 20th percentile RZSM of the corresponding day's long-term record.
