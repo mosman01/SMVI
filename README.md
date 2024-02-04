@@ -22,3 +22,9 @@ SMVI data is in this inventory is based on the published studies of flash drough
 
 ## Global SMVI inventory:
 A global SMVI dataset is published in hydroshare at: https://www.hydroshare.org/resource/080002bd7cc44242bb37c02b049ed532/
+
+## References:
+- Osman, M., Zaitchik, B. F., Badr, H. S., Christian, J. I., Tadesse, T., Otkin, J. A., & Anderson, M. C. (2021). Flash drought onset over the contiguous United States: sensitivity of inventories and trends to quantitative definitions. Hydrology and Earth System Sciences, 25(2), 565–581. https://doi.org/10.5194/hess-25-565-2021
+- Osman, M., Zaitchik, B. F., Badr, H. S., Otkin, J., Zhong, Y., Lorenz, D., et al. (2022). Diagnostic Classification of Flash Drought Events Reveals Distinct Classes of Forcings and Impacts. Journal of Hydrometeorology, 23(2), 275–289. https://doi.org/10.1175/JHM-D-21-0134.1
+- Osman, M., Zaitchik, B. F., Otkin, J., Anderson, M. (2024). SMVI Global Flash Droughts Dataset, HydroShare, https://doi.org/10.4211/hs.080002bd7cc44242bb37c02b049ed532
+
