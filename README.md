@@ -19,3 +19,6 @@ SMVI data is in this inventory is based on the published studies of flash drough
 
 	- In this version multiple flash drought events are allowed to be detected up to 6 events per year, sorted by onset date of event
 	- Events 15 days or less apart are considered to be 1 event, and merged into one.
+
+## Global SMVI inventory:
+A global SMVI dataset is published in hydroshare at: https://www.hydroshare.org/resource/080002bd7cc44242bb37c02b049ed532/
