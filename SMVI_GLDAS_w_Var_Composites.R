@@ -2,7 +2,7 @@
 #######FLASH DROUGHTS - SMVI#######
 ### ### ### ### ### ### ### ### ###
 ##########NLDAS/GLDAS based##############
-#####LAST UPDATED 02/01/2023#######
+#####LAST UPDATED 02/26/2023#######
 ######################################################
 ##Author: Mahmoud Osman, PhD##########################
 ##Johns Hopkins University  ##########################
@@ -17,7 +17,7 @@
 ##References:
 ###Osman, M., Zaitchik, B. F., Badr, H. S., Christian, J. I., Tadesse, T., Otkin, J. A., & Anderson, M. C. (2021). Flash drought onset over the contiguous United States: sensitivity of inventories and trends to quantitative definitions. Hydrology and Earth System Sciences, 25(2), 565–581. https://doi.org/10.5194/hess-25-565-2021
 ###Osman, M., Zaitchik, B. F., Badr, H. S., Otkin, J., Zhong, Y., Lorenz, D., et al. (2022). Diagnostic Classification of Flash Drought Events Reveals Distinct Classes of Forcings and Impacts. Journal of Hydrometeorology, 23(2), 275–289. https://doi.org/10.1175/JHM-D-21-0134.1
-###Osman, M., B. Zaitchik, J. Otkin, M. Anderson (2024). SMVI Global Flash Droughts Dataset, HydroShare, https://doi.org/10.4211/hs.080002bd7cc44242bb37c02b049ed532
+###Osman, M., Zaitchik, B. F., Otkin, J., Anderson, M. (2024). SMVI Global Flash Droughts Dataset, HydroShare, https://doi.org/10.4211/hs.080002bd7cc44242bb37c02b049ed532
 ##This research has been supported by the National Science Foundation (grant no. 1854902)
 
 
@@ -253,7 +253,7 @@ print("READING VEG FILE...")
 
 if (SM_Th != 20){ #need to be used with caution!!
 
-	nc02 <- ncvar_get(nc_open(paste('GLDAS/GLDAS_CLSM025_1980_2022_SEL_20PCTL.nc',sep = '')),'SoilMoist_RZ_tavg')
+	nc02 <- ncvar_get(nc_open(paste('GLDAS/GLDAS_CLSM025_1980_2022_SEL_20PCTL_ANOM_STD.nc',sep = '')),'SoilMoist_RZ_tavg')
 	nc03 <- ncvar_get(nc_open(paste('NLDAS/RZSM_NLDAS_NOAH0125_D_1979_2018_10PCTL.nc',sep = '')),'RZSM')
 	nc04 <- ncvar_get(nc_open(paste('NLDAS/RZSM_NLDAS_NOAH0125_D_1979_2018_90PCTL.nc',sep = '')),'RZSM')
 	nc05 <- ncvar_get(nc_open(paste('NLDAS/RZSM_NLDAS_NOAH0125_D_1979_2018_40PCTL.nc',sep = '')),'RZSM')
@@ -269,7 +269,7 @@ if (SM_Th != 20){ #need to be used with caution!!
 } else {
 	print("READING PCTL FILE...")
 
-	nc02 <- ncvar_get(nc_open(paste('GLDAS/GLDAS_CLSM025_1980_2022_SEL_20PCTL.nc',sep = '')),'SoilMoist_RZ_tavg')
+	nc02 <- ncvar_get(nc_open(paste('GLDAS/GLDAS_CLSM025_1980_2022_SEL_20PCTL_ANOM_STD.nc',sep = '')),'SoilMoist_RZ_tavg')
 	#nc02 <- ncvar_get(nc_open(paste('NLDAS/RZSM_NLDAS_NOAH0125_D_1979_2018_20PCTL.nc',sep = '')),'RZSM')
 	nc02.2 <- array(nc02,c((n_reg),ntime))
 	rm(nc02)
