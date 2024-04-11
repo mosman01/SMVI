@@ -21,7 +21,7 @@ SMVI data is in this inventory is based on the published studies of flash drough
 	- Events 15 days or less apart are considered to be 1 event, and merged into one.
 
 ## Global SMVI inventory:
-A global SMVI dataset is published in hydroshare at: https://www.hydroshare.org/resource/080002bd7cc44242bb37c02b049ed532/
+A global SMVI dataset is published in hydroshare at: https://www.hydroshare.org/resource/642ff72592404a17bb85a8a92b4dbcd6/
 
 ## References:
 - Osman, M., Zaitchik, B. F., Badr, H. S., Christian, J. I., Tadesse, T., Otkin, J. A., & Anderson, M. C. (2021). Flash drought onset over the contiguous United States: sensitivity of inventories and trends to quantitative definitions. Hydrology and Earth System Sciences, 25(2), 565–581. https://doi.org/10.5194/hess-25-565-2021
